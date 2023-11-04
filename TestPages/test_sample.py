@@ -1,8 +1,10 @@
 import time
 import pytest
 from PageObjects.googleHome import GoogleHome
-from TestPages.baseclass import BaseClass
-
+from driver.baseclass import BaseClass
+import sys
+sys.path.append('C:\\Users\\HP\\PycharmProjects\\PracticeprojectBMQ\\project1\\driver')
+from driver.conftest import web_driver
 # from webdriver_manager.chrome import ChromeDriverManager
 
 # @pytest.mark.usefixtures("web_driver")
